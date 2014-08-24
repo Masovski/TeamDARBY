@@ -25,6 +25,9 @@ class Posts extends CI_Controller{
     }
     
     function new_post(){
+        if(!$this->correct_permisions('author')){
+            redirect(base_url().'users/login');
+        }
         if($_POST){
             $data = array(
                 'title'=>$_POST['title'],
@@ -39,6 +42,9 @@ class Posts extends CI_Controller{
     }
     
     function editpost($postID){
+        if(!$this->correct_permisions('author')){
+            redirect(base_url().'users/login');
+        }
         $data['success'] = 0;
         if($_POST){
             $data_post = array(
@@ -54,7 +60,30 @@ class Posts extends CI_Controller{
     }
     
     function deletepost($postID){
+        if(!$this->correct_permisions('author')){
+            redirect(base_url().'users/login');
+        }
         $this->post->delete_post($postID);
         redirect(base_url().'posts');
     }
+    
+    function correct_permisions($required)  {
+        $user_type = $this->session->userdata('user_type');
+        if ($required == "user") {
+            if ($user_type) {
+                return true;
+            }
+        } elseif ($required == "author") {
+            if ($user_type == "author" || $user_type == "admin") {
+                return true;
+            }
+        } elseif ($required == "admin") {
+            if ($user_type == "admin") {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
 }
