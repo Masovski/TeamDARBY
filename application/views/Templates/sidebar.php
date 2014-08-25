@@ -55,7 +55,7 @@
 
     <!-- Side Widget Well -->
     <div class="well">
-        <h4>Support Us</h4>
+        <h4>Support us</h4>
 		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 			<input type="hidden" name="cmd" value="_s-xclick">
 			<input type="hidden" name="hosted_button_id" value="93YL6Q3653M3G">
