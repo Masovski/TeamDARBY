@@ -19,9 +19,11 @@ class Users extends CI_Controller{
                 $this->session->set_userdata('username', $user['username']);
             }
         }
-        $this->load->view('header');
+        $this->load->view('templates/header', $data);
+        $this->load->view('templates/nav', $data);
         $this->load->view('login',$data);
-        $this->load->view('footer');
+        $this->load->view('templates/sidebar', $data);
+        $this->load->view('templates/footer', $data);
     }
     
     function register(){
@@ -40,10 +42,13 @@ class Users extends CI_Controller{
         }
         
         $this->load->helper('form');
-        $this->load->view('header');
+        $this->load->view('templates/header', $data);
+        $this->load->view('templates/nav', $data);
         $this->load->view('register_user',$data);
-        $this->load->view('footer');
-        
+        $this->load->view('templates/sidebar', $data);
+        $this->load->view('templates/footer', $data);
+
+
     }
     
     function logout(){

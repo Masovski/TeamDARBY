@@ -15,8 +15,12 @@ class Posts extends CI_Controller{
         $config['per_page'] = 5;
         $this->pagination->initialize($config);
         $data['pages'] = $this->pagination->create_links();
-        
+
+        $this->load->view('templates/header', $data);
+        $this->load->view('templates/nav', $data);
         $this->load->view('post_index', $data);
+        $this->load->view('templates/sidebar', $data);
+        $this->load->view('templates/footer', $data);
     }
     
     function post($postID){
