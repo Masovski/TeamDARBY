@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Login</title>
-    <link rel="stylesheet" href="<?php echo asset_url() . "styles/login.css" ?>">
-</head>
-<body>
-<section class="container">
     <div class="login">
         <h1>Login</h1>
         <?php if($error==1){ ?>
@@ -26,6 +18,3 @@
             <p><input type="submit" value="Login"/></p>
         </form>
     </div>
-</section>
-</body>
-</html>
