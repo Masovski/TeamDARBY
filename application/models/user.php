@@ -2,7 +2,7 @@
 
 class User extends CI_Model {
 
-    function create_user($data){
+    function register_user($data){
         $this->db->insert('users', $data);
         return $this->db->insert_id();
     }
