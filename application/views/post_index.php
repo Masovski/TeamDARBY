@@ -19,9 +19,9 @@
                     by <a href="<?= base_url(); ?>">Team Darby</a>
                 </p>
                 <p><span class="glyphicon glyphicon-time"></span> Posted on [Month] [Day of Month], [Year] at [Hours:Minutes]</p>
-                <hr>
-                <!--<img class="img-responsive" src="http://placehold.it/900x300" alt=""> -->
-                <hr>
+                <!--<hr>
+                <img class="img-responsive" src="http://placehold.it/900x300" alt="">
+                <hr>-->
                 <p><?= substr(strip_tags($row['post']), 0, 200) . ".." ?></p>
                 <a class="btn btn-primary" href="<?= base_url() ?>posts/post/<?= $row['postID'] ?>">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
 
