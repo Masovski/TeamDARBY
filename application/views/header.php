@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <title>Title</title>
+        <link href="../../assets/styles/style.css" rel="stylesheet" type="text/css"/>
     </head>
 <body>
     <?php if($this->session->userdata('userID')){ ?>
