@@ -11,6 +11,7 @@
             'name' => 'username',
             'id'=>'username',
             'size' => 50,
+            'value' => set_value('username')
         );
         echo form_input($data_form);
         ?>
@@ -21,6 +22,7 @@
             'name' => 'email',
             'id'=>'email',
             'size' => 50,
+            'value' => set_value('email')
         );
         echo form_input($data_form);
         ?>
@@ -57,8 +59,8 @@
         'author'=>'Author',
         'user'=>'User'
     );
-    $js = '';
-    echo form_dropdown('user_type', $options, '', $js);
+    $attr = 'id="user_type"';
+    echo form_dropdown('user_type', $options, set_value('user_type', ''), $attr);
     ?>
     </p>
     <?php echo form_submit('', 'Register') ?>
