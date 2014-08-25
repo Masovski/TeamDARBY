@@ -1,21 +1,50 @@
 <h2>Register User</h2>
-
+<?php if($errors){?>
+<div style="background-color: #e13300; color: #ffffff">
+   <?=$errors?>
+</div>
+<?php } ?>
 <?php echo form_open(base_url().'users/register'); ?>
-    <?php $data_form = array(
-        'name' => 'username',
-        'size' => 50,
-        'style' => 'border: 1px solid black',
-        'id' => 'username'
-    );
-    echo form_input($data_form);
-    ?>
+    <p>
+        <?=form_label('Username', 'username')?>:
+        <?php $data_form = array(
+            'name' => 'username',
+            'id'=>'username',
+            'size' => 50,
+        );
+        echo form_input($data_form);
+        ?>
+    </p>
+    <p>
+        <?=form_label('Email', 'email')?>:
+        <?php $data_form = array(
+            'name' => 'email',
+            'id'=>'email',
+            'size' => 50,
+        );
+        echo form_input($data_form);
+        ?>
+    </p>
     <p>
         <?=form_label('Password', 'password')?>:
         <?php
             $data_form=array(
+                'name'=>'password',
                 'id'=>'password',
-                'name'=>'size',
+                'size'=>50,
                 'class'=>'blackborder'
+            );
+            echo form_password($data_form)
+        ?>
+    </p>
+    <p>
+        <?=form_label('Password confirmed', 'password2')?>:
+        <?php
+            $data_form=array(
+                'id'=>'password2',
+                'name'=>'size',
+                'size'=>50,
+                'class'=>'blackborder',
             );
             echo form_password($data_form)
         ?>
