@@ -50,7 +50,7 @@
 <!-- Page Content -->
 <div class="container">
     <div class="row">
-        <?php if($errors){?>
+        <?php if(!empty($errors)){?>
         <div class="alert alert-danger" role="alert">
            <?=$errors?>
         </div>
