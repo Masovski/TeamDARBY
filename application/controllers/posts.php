@@ -26,7 +26,7 @@ class Posts extends CI_Controller{
         $data['pages'] = $this->pagination->create_links();
 
         $data['title'] = "Posts";
-
+        $data['author_permissions'] = $this->correct_permisions('author');
         $this->load->view('templates/header', $data);
         $this->load->view('templates/nav');
         $this->load->view('post_index');

@@ -12,8 +12,9 @@
                 <p class="lead">
                     by <a href="<?= base_url(); ?>">Team Darby</a>
                 </p>
+                <?php if($author_permissions) { ?>
                 <span class="glyphicon glyphicon-edit"></span> <a href="<?= base_url() ?>posts/editpost/<?= $row['postID'] ?>">Edit</a> |
-                <span class="glyphicon glyphicon-remove-circle"></span> <a href="<?= base_url() ?>posts/deletepost/<?= $row['postID'] ?>">Delete</a>
+                <span class="glyphicon glyphicon-remove-circle"></span> <a href="<?= base_url() ?>posts/deletepost/<?= $row['postID'] ?>">Delete</a> <?php } ?>
                 <p><span class="glyphicon glyphicon-time"></span> Posted on <?= $row['date_added']; ?></p>
                 <hr>
                 <!--<img class="img-responsive" src="http://placehold.it/900x300" alt="">
