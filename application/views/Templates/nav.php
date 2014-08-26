@@ -50,10 +50,15 @@
 <!-- Page Content -->
 <div class="container">
     <div class="row">
-        <?php if(!empty($errors)){?>
-        <div class="alert alert-danger" role="alert">
-           <?=$errors?>
-        </div>
+        <?php if ($this->session->flashdata('errors')) {?>
+            <div class="alert alert-danger" role="alert">
+                <?=$this->session->flashdata('errors')?>
+            </div>
+        <?php } else if ($this->session->flashdata('success')) {?>
+        <div role = "alert" class = "alert alert-success">
+                <strong>Well done!</strong>
+                <?=$this->session->flashdata('success')?>
+        </div >
         <?php } ?>
         
         <!-- Blog Entries Column -->

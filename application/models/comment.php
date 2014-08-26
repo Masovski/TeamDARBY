@@ -7,9 +7,8 @@ class Comment Extends CI_Model{
     }
     
     function get_comments($postID){
-        $this->db->select('comments.*, users.username')
+        $this->db->select('comments.*')
                 ->from('comments')
-                ->join('users', 'users.userID=comments.userID', 'left')
                 ->where('postID', $postID)
                 ->order_by('comments.date_added', 'asc');
         

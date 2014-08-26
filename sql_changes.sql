@@ -42,3 +42,11 @@ CREATE TABLE IF NOT EXISTS `comments` (
   `date_added` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`commentID`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=4 ;
+
+---
+--  Comments changes
+---
+
+ALTER TABLE `comments` CHANGE `userID` `username` VARCHAR( 50 ) NOT NULL ;
+
+ALTER TABLE `comments` ADD `email` VARCHAR( 50 ) NULL AFTER `username` ;
