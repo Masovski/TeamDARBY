@@ -29,3 +29,16 @@ CREATE TABLE IF NOT EXISTS `users` (
 
 INSERT INTO `users` (`userID`, `email`, `username`, `password`, `user_type`) VALUES
 (1, 'admin@admin.com', 'admin', '7110eda4d09e062aa5e4a390b0a572ac0d2c0220', 'admin');
+
+
+---
+--  Comments table
+---
+CREATE TABLE IF NOT EXISTS `comments` (
+  `commentID` int(10) NOT NULL AUTO_INCREMENT,
+  `postID` int(10) NOT NULL,
+  `userID` int(10) NOT NULL,
+  `comment` text COLLATE utf8_unicode_ci NOT NULL,
+  `date_added` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`commentID`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=4 ;
