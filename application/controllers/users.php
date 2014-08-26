@@ -13,7 +13,7 @@ class Users extends CI_Controller{
             $password = $this->input->post('password', true);
             $type = $this->input->post('user_type', true);
             
-            $user = $this->user->login($username, $password, $type);
+            $user = $this->user->login($username, $password);
             if(!$user){
                 $data['error'] = 1;
             } else {
@@ -32,8 +32,6 @@ class Users extends CI_Controller{
     }
     
     function register(){
-        $data['errors'] = false;
-        
         if($_POST)  {
             $config = array(
                 array(
@@ -60,12 +58,12 @@ class Users extends CI_Controller{
             $this->load->library('form_validation');
             $this->form_validation->set_rules($config);
             if ($this->form_validation->run() == FALSE) {
-                $data['errors'] = validation_errors();
+                $this->session->set_flashdata('errors', validation_errors());
             } else {
                 $data = array(
                     'username' => $this->input->post('username', true),
                     'password' => sha1($this->input->post('password', true)),
-                    'user_type' => $this->input->post('user_type', true)
+                    'user_type' => 'user'
                 );
                 $this->load->model('user');
                 $userID = $this->user->register_user($data);

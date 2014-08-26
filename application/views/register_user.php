@@ -1,5 +1,3 @@
-<h2>Register User</h2>
-
 <?php echo form_open(base_url().'users/register'); ?>
     <p>
         <?=form_label('Username', 'username')?>:
@@ -46,18 +44,6 @@
             );
             echo form_password($data_form)
         ?>
-    </p>
-    
-    <p>User Type: <?php
-    $options=array(
-        ''=>'--',
-        'admin'=>'Admin',
-        'author'=>'Author',
-        'user'=>'User'
-    );
-    $attr = 'id="user_type"';
-    echo form_dropdown('user_type', $options, set_value('user_type', ''), $attr);
-    ?>
     </p>
     <?php echo form_submit('', 'Register') ?>
 <?php echo form_close() ?>

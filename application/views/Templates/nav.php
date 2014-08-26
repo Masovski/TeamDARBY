@@ -52,7 +52,8 @@
     <div class="row">
         <?php if ($this->session->flashdata('errors')) {?>
             <div class="alert alert-danger" role="alert">
-                <?=$this->session->flashdata('errors')?>
+                <?=$this->session->flashdata('errors');
+                $this->session->unset_userdata('errors');?>
             </div>
         <?php } else if ($this->session->flashdata('success')) {?>
         <div role = "alert" class = "alert alert-success">
