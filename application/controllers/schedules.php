@@ -10,7 +10,7 @@ class Schedules extends CI_Controller {
     function index() {
         $data['var_from_controller'] = $this->schedule->get_themes();
 
-        $data['title'] = "Schedule of theme discussions";
+        $data['title'] = "Schedule of the themes for discussion";
 
         $this->load->view('templates/header', $data);
         $this->load->view('templates/nav');
