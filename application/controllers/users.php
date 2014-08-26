@@ -65,7 +65,7 @@ class Users extends CI_Controller{
                 $data = array(
                     'username' => $this->input->post('username', true),
                     'password' => $this->input->post('password', true),
-                    'type' => $this->input->post('user_type', true)
+                    'user_type' => $this->input->post('user_type', true)
                 );
                 $this->load->model('user');
                 $userID = $this->user->register_user($data);
