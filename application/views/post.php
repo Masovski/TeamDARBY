@@ -28,7 +28,7 @@
 <!-- Comments Form -->
 <div class="well">
     <h4>Leave a Comment:</h4>
-    <form role="form" method="post" action="/comments/add_comment/<?=$post['postID']?>">
+    <form role="form" method="post" action="<?= base_url(); ?>comments/add_comment/<?=$post['postID']?>">
         <div class="form-group">
             <textarea class="form-control" rows="3" name="comment"></textarea>
         </div>
