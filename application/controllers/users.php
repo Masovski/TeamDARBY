@@ -64,7 +64,7 @@ class Users extends CI_Controller{
             } else {
                 $data = array(
                     'username' => $this->input->post('username', true),
-                    'password' => $this->input->post('password', true),
+                    'password' => sha1($this->input->post('password', true)),
                     'user_type' => $this->input->post('user_type', true)
                 );
                 $this->load->model('user');
