@@ -54,7 +54,7 @@ class Users extends CI_Controller{
                 array(
                     'field' => 'email',
                     'label' => 'Email',
-                    'rules' => 'trim|required|umique[users.email]|valid_email'
+                    'rules' => 'trim|required|unique[users.email]|valid_email'
                 )
             );
             $this->load->library('form_validation');
