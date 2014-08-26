@@ -38,6 +38,7 @@
                     </li>
                 <?php } else { ?>
                     <li><a href="<?=base_url()?>users/login">Login</a></li>
+                    <li><a href="<?=base_url()?>users/register">Register</a></li>
                 <?php } ?>
             </ul>
         </div>
