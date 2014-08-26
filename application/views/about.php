@@ -1,21 +1,4 @@
-<style>
-.information {
-	display: table;
-	margin: 2px;
-    background-color: #f9f9f9;
-    float: left;
-    border-radius: 5px;
-}
-.table-row {
-	display: table-row;
-	
-}
-.left, .right {
-	display: table-cell;
-	width: 50%;
-	padding: 5px;
-}
-</style>
+<link href="<?= asset_url() . "css/about.css"; ?>" rel="stylesheet"/>
 <div class="container">
     <div class="row">
         <div class="col-md-10">
@@ -24,7 +7,7 @@
 					<div class="information">
 						<div class="table-row">
 						<div class="photo">
-							<img src='<?= asset_url()."images/ceco.png"?>' alt=""/>
+							<img class="photo" src='<?= asset_url()."images/ceco.jpg"?>' alt=""/>
 						</div>
 						<div class="table-row">
 							<div class="left">Name:</div>
