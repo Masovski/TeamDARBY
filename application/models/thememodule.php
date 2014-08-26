@@ -6,3 +6,4 @@ class ThemeModule extends CI_Model{
 		return $query->result_array();
 	}
 }
+?>
