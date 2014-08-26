@@ -2,7 +2,6 @@
     <p>This page was accessed incorrectly!</p>
 <?php } else {
     $date = date("F jS, Y \\a\\t H:i", strtotime($post['date_added'])); ?>
-        <?=$post['title']?>
 <?php } ?>
 
 <!-- Author -->

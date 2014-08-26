@@ -42,7 +42,7 @@ class Posts extends CI_Controller{
 
         $data['title'] = $data['post']['title'];
 
-        $this->load->view('templates/header', array('title'=>'asd'));
+        $this->load->view('templates/header', $data);
         $this->load->view('templates/nav');
         $this->load->view('post', $data);
         $this->load->view('templates/sidebar');
