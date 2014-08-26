@@ -16,22 +16,32 @@ class Posts extends CI_Controller{
         $this->pagination->initialize($config);
         $data['pages'] = $this->pagination->create_links();
 
+        $data['title'] = "Posts";
+
         $this->load->view('templates/header', $data);
-        $this->load->view('templates/nav', $data);
-        $this->load->view('post_index', $data);
-        $this->load->view('templates/sidebar', $data);
-        $this->load->view('templates/footer', $data);
+        $this->load->view('templates/nav');
+        $this->load->view('post_index');
+        $this->load->view('templates/sidebar');
+        $this->load->view('templates/footer');
     }
     
     function post($postID){
         $data['post'] = $this->post->get_post($postID);
-        $this->load->view('post', $data);
+
+        $data['title'] = $data['post']['title'];
+
+        $this->load->view('templates/header', $data);
+        $this->load->view('templates/nav');
+        $this->load->view('post');
+        $this->load->view('templates/sidebar');
+        $this->load->view('templates/footer');
     }
     
     function new_post(){
         if(!$this->correct_permisions('author')){
             redirect(base_url().'users/login');
         }
+
         if($_POST){
             $data = array(
                 'title'=>$_POST['title'],
@@ -41,7 +51,12 @@ class Posts extends CI_Controller{
             $this->post->insert_post($data);
             redirect(base_url().'posts/');
         } else {
+            $data['title'] = "Add New Post";
+            $this->load->view('templates/header', $data);
+            $this->load->view('templates/nav');
             $this->load->view('new_post');
+            $this->load->view('templates/sidebar');
+            $this->load->view('templates/footer');
         }
     }
     
@@ -58,9 +73,15 @@ class Posts extends CI_Controller{
             );
             $this->post->update_post($postID, $data_post);
             $data['success'] = 1;
+            redirect(base_url().'posts/post/' . $postID);
         }
         $data['post'] = $this->post->get_post($postID);
-        $this->load->view('edit_post', $data);
+        $data['title'] = "Edit Post: " . $data['post']['title'];
+        $this->load->view('templates/header', $data);
+        $this->load->view('templates/nav');
+        $this->load->view('edit_post');
+        $this->load->view('templates/sidebar');
+        $this->load->view('templates/footer');
     }
     
     function deletepost($postID){

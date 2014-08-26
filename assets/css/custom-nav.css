@@ -1,0 +1,24 @@
+.profile-bar{
+    float:right;
+    color: #FFF;
+}
+.navbar-inverse .navbar-nav>li>a {
+    -webkit-transition: color 0.5s ease;
+    -moz-transition: color 0.5s ease;
+    -ms-transition: color 0.5s ease;
+    -o-transition: color 0.5s ease;
+    transition: color 0.5s ease;
+    color: #EEE;
+}
+.navbar-inverse .navbar-header a.navbar-brand {
+    color: rgba(7, 168, 251, 0.8);
+}
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-header a.navbar-brand:hover {
+    color: rgba(7, 168, 251, 1);
+}
+
+h1.page-header, h2 {
+    word-wrap: break-word;
+}

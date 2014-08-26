@@ -9,13 +9,9 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Team DARBY</title>
+    <title><?= $title . MAIN_TITLE ?></title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="<?php echo asset_url() . "css/bootstrap.min.css"; ?>" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="<?php echo asset_url() . "css/blog-home.css"; ?>" rel="stylesheet">
+    <link href="<?= asset_url() . "css/styles.css"?>" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

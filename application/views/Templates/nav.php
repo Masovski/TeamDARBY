@@ -24,6 +24,22 @@
                     <a href="#">Contact</a>
                 </li>
             </ul>
+            <ul class="nav navbar-nav profile-bar">
+                <?php if($this->session->userdata('userID')){ ?>
+                    <li style="color:#FFF; padding: 15px;">
+                        Logged in as:
+                        <?=$this->session->userdata('username')?>
+                        <strong>
+                            (<?=$this->session->userdata('user_type')?>)
+                        </strong>
+                    </li>
+                    <li style="color:#FFF">
+                        <a href="<?=base_url()?>users/logout">Logout</a>
+                    </li>
+                <?php } else { ?>
+                    <li><a href="<?=base_url()?>users/login">Login</a></li>
+                <?php } ?>
+            </ul>
         </div>
         <!-- /.navbar-collapse -->
     </div>
@@ -38,17 +54,6 @@
         <div class="col-md-8">
 
             <h1 class="page-header">
-                Page Heading
-                <small>Secondary Text</small>
+                <?= $title ?>
+                <!--<small>Secondary Text</small>-->
             </h1>
-<?php if($this->session->userdata('userID')){ ?>
-    <p>
-        <?=$this->session->userdata('username')?>
-        <strong>
-            (<?=$this->session->userdata('user_type')?>)
-        </strong>
-        <a href="<?=base_url()?>users/logout">Logout</a>
-    </p>
-<?php } else { ?>
-    <a href="<?=base_url()?>users/login">Login</a>
-<?php } ?>

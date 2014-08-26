@@ -4,6 +4,9 @@ class Users extends CI_Controller{
 
     function login(){
         $data['error'] = 0;
+        if($this->session->userdata('userID')) {
+            redirect(base_url());
+        }
         if($_POST){
             $this->load->model('user');
             $username = $this->input->post('username', true);
@@ -17,13 +20,15 @@ class Users extends CI_Controller{
                 $this->session->set_userdata('userID', $user['userID']);
                 $this->session->set_userdata('user_type', $user['user_type']);
                 $this->session->set_userdata('username', $user['username']);
+                redirect(base_url());
             }
         }
+        $data['title'] = "Login";
         $this->load->view('templates/header', $data);
-        $this->load->view('templates/nav', $data);
-        $this->load->view('login',$data);
-        $this->load->view('templates/sidebar', $data);
-        $this->load->view('templates/footer', $data);
+        $this->load->view('templates/nav');
+        $this->load->view('login');
+        $this->load->view('templates/sidebar');
+        $this->load->view('templates/footer');
     }
     
     function register(){
@@ -72,12 +77,13 @@ class Users extends CI_Controller{
             }
         }
 
+        $data['title'] = "Create new account";
         $this->load->helper('form');
         $this->load->view('templates/header', $data);
-        $this->load->view('templates/nav', $data);
-        $this->load->view('register_user',$data);
-        $this->load->view('templates/sidebar', $data);
-        $this->load->view('templates/footer', $data);
+        $this->load->view('templates/nav');
+        $this->load->view('register_user');
+        $this->load->view('templates/sidebar');
+        $this->load->view('templates/footer');
 
     }
     

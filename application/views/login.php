@@ -1,5 +1,6 @@
-    <div class="login">
-        <h1>Login</h1>
+<link href="<?= asset_url() . "css/login.css"?>" rel="stylesheet"/>
+<div class="login">
+
         <?php if($error==1){ ?>
             <p>Your username or password did now match.</p>
             <br>

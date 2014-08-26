@@ -36,6 +36,14 @@ define('FOPEN_READ_WRITE_CREATE',				'a+b');
 define('FOPEN_WRITE_CREATE_STRICT',				'xb');
 define('FOPEN_READ_WRITE_CREATE_STRICT',		'x+b');
 
-
+/*
+|--------------------------------------------------------------------------
+| User-defined constants
+|--------------------------------------------------------------------------
+|
+| These modes are created and used by developers
+|
+*/
+define('MAIN_TITLE', ' | Team Darby');
 /* End of file constants.php */
 /* Location: ./application/config/constants.php */

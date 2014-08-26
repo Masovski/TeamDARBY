@@ -22,7 +22,7 @@ class Post extends CI_Model {
     }
 
     function insert_post($data) {
-        $this->db->insert('post', $data);
+        $this->db->insert('posts', $data);
         return $this->db->insert_id();
     }
 
