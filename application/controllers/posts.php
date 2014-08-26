@@ -40,7 +40,7 @@ class Posts extends CI_Controller{
         $data['comments'] = $this->comment->get_comments($postID);
         $data['post'] = $this->post->get_post($postID);
 
-        $data['title'] = $data['post']['title'];
+        $data['title'] = html_escape($data['post']['title']);
 
         $this->load->view('templates/header', $data);
         $this->load->view('templates/nav');
@@ -88,7 +88,7 @@ class Posts extends CI_Controller{
             redirect(base_url().'posts/post/' . $postID);
         }
         $data['post'] = $this->post->get_post($postID);
-        $data['title'] = "Edit Post: " . $data['post']['title'];
+        $data['title'] = "Edit Post: " . html_escape($data['post']['title']);
         $this->load->view('templates/header', $data);
         $this->load->view('templates/nav');
         $this->load->view('edit_post');
