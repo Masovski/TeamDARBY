@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5dd8bad1-8f25-4435-93a8-cbe8fefe0104" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/users.php" afterPath="$PROJECT_DIR$/application/controllers/users.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/post.php" afterPath="$PROJECT_DIR$/application/views/post.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TeamDARBY.iws" />
@@ -29,16 +29,43 @@
       <file leaf-file-name="nav.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/templates/nav.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="28" selection-start="2321" selection-end="2321" vertical-scroll-proportion="-11.34375" vertical-offset="971" max-vertical-offset="1610">
+            <state line="63" column="28" selection-start="2628" selection-end="2628" vertical-scroll-proportion="-11.34375" vertical-offset="1086" max-vertical-offset="1725">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="users.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="users.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/users.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="71" selection-start="2607" selection-end="2607" vertical-scroll-proportion="0.36503068" vertical-offset="1303" max-vertical-offset="2277">
+            <state line="9" column="19" selection-start="205" selection-end="205" vertical-scroll-proportion="-3.125" vertical-offset="107" max-vertical-offset="2277">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="posts.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/controllers/posts.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="74" selection-start="971" selection-end="971" vertical-scroll-proportion="0.77607363" vertical-offset="138" max-vertical-offset="3013">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="post.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/post.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="32" selection-start="890" selection-end="890" vertical-scroll-proportion="-21.5625" vertical-offset="0" max-vertical-offset="1150">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="post.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/post.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="20" selection-start="502" selection-end="502" vertical-scroll-proportion="-15.09375" vertical-offset="69" max-vertical-offset="1633">
               <folding />
             </state>
           </provider>
@@ -78,11 +105,11 @@
         <option value="$PROJECT_DIR$/system/libraries/Pagination.php" />
         <option value="$PROJECT_DIR$/application/config/config.php" />
         <option value="$PROJECT_DIR$/application/config/routes.php" />
-        <option value="$PROJECT_DIR$/application/views/post.php" />
         <option value="$PROJECT_DIR$/application/controllers/posts.php" />
         <option value="$PROJECT_DIR$/application/views/post_index.php" />
         <option value="$PROJECT_DIR$/application/views/register_user.php" />
         <option value="$PROJECT_DIR$/application/controllers/users.php" />
+        <option value="$PROJECT_DIR$/application/views/post.php" />
       </list>
     </option>
   </component>
@@ -559,33 +586,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="32" selection-start="890" selection-end="890" vertical-scroll-proportion="-15.09375" vertical-offset="207" max-vertical-offset="1150">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/system/helpers/form_helper.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1030" column="14" selection-start="21323" selection-end="21323" vertical-scroll-proportion="0.22535211" vertical-offset="23546" max-vertical-offset="24380">
           <folding>
             <marker date="1408954812788" expanded="false" signature="-1:-1" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="32" selection-start="507" selection-end="507" vertical-scroll-proportion="-15.8125" vertical-offset="0" max-vertical-offset="1449">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/posts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="74" selection-start="971" selection-end="971" vertical-scroll-proportion="-11.5" vertical-offset="276" max-vertical-offset="3013">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -612,14 +618,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/templates/nav.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="28" selection-start="2321" selection-end="2321" vertical-scroll-proportion="-11.34375" vertical-offset="971" max-vertical-offset="1610">
+        <state line="63" column="28" selection-start="2628" selection-end="2628" vertical-scroll-proportion="-11.34375" vertical-offset="1086" max-vertical-offset="1725">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/users.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="71" selection-start="2607" selection-end="2607" vertical-scroll-proportion="0.36503068" vertical-offset="1303" max-vertical-offset="2277">
+        <state line="9" column="19" selection-start="205" selection-end="205" vertical-scroll-proportion="-3.125" vertical-offset="107" max-vertical-offset="2277">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="20" selection-start="502" selection-end="502" vertical-scroll-proportion="-15.09375" vertical-offset="69" max-vertical-offset="1633">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="32" selection-start="890" selection-end="890" vertical-scroll-proportion="-21.5625" vertical-offset="0" max-vertical-offset="1150">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/posts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="74" selection-start="971" selection-end="971" vertical-scroll-proportion="0.77607363" vertical-offset="138" max-vertical-offset="3013">
           <folding />
         </state>
       </provider>

@@ -22,7 +22,7 @@
 <hr>->
 
 <!-- Post Content -->
-<p><?= html_escape($post['post']) ?></p>
+<p><?= $post['post'] ?></p>
 <hr>
 
 <!-- Blog Comments -->
