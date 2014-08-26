@@ -42,8 +42,8 @@
         <?=form_label('Password confirmed', 'password2')?>:
         <?php
             $data_form=array(
+                'name'=>'password2',
                 'id'=>'password2',
-                'name'=>'size',
                 'size'=>50,
                 'class'=>'blackborder',
             );
