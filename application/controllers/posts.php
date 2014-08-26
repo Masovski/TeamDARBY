@@ -35,13 +35,16 @@ class Posts extends CI_Controller{
     }
     
     function post($postID){
+        $this->load->model('comment');
+        
+        $data['comments'] = $this->comment->get_comments($postID);
         $data['post'] = $this->post->get_post($postID);
 
         $data['title'] = $data['post']['title'];
 
-        $this->load->view('templates/header', $data);
+        $this->load->view('templates/header', array('title'=>'asd'));
         $this->load->view('templates/nav');
-        $this->load->view('post');
+        $this->load->view('post', $data);
         $this->load->view('templates/sidebar');
         $this->load->view('templates/footer');
     }
