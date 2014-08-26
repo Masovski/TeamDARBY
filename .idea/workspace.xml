@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5dd8bad1-8f25-4435-93a8-cbe8fefe0104" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/post.php" afterPath="$PROJECT_DIR$/application/views/post.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/themecontroller.php" afterPath="$PROJECT_DIR$/application/controllers/themecontroller.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TeamDARBY.iws" />
@@ -44,10 +44,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="posts.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="posts.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/posts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="74" selection-start="971" selection-end="971" vertical-scroll-proportion="0.77607363" vertical-offset="138" max-vertical-offset="3013">
+            <state line="33" column="46" selection-start="979" selection-end="1205" vertical-scroll-proportion="-15.09375" vertical-offset="276" max-vertical-offset="3013">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="schedule.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/models/schedule.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="4" selection-start="45" selection-end="45" vertical-scroll-proportion="0.109350234" vertical-offset="0" max-vertical-offset="631">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/config/routes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="2" selection-start="1392" selection-end="1392" vertical-scroll-proportion="-12.03125" vertical-offset="489" max-vertical-offset="1173">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="schedules.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/schedules.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="0" selection-start="305" selection-end="305" vertical-scroll-proportion="-9.34375" vertical-offset="0" max-vertical-offset="621">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="themecontroller.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/themecontroller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="2" selection-start="218" selection-end="218" vertical-scroll-proportion="-5.75" vertical-offset="0" max-vertical-offset="322">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="schedules.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/schedules.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="21" selection-start="57" selection-end="57" vertical-scroll-proportion="-2.15625" vertical-offset="0" max-vertical-offset="207">
               <folding />
             </state>
           </provider>
@@ -110,6 +155,11 @@
         <option value="$PROJECT_DIR$/application/views/register_user.php" />
         <option value="$PROJECT_DIR$/application/controllers/users.php" />
         <option value="$PROJECT_DIR$/application/views/post.php" />
+        <option value="$PROJECT_DIR$/application/controllers/schedule.php" />
+        <option value="$PROJECT_DIR$/application/controllers/themecontroller.php" />
+        <option value="$PROJECT_DIR$/application/views/schedules.php" />
+        <option value="$PROJECT_DIR$/application/controllers/schedules.php" />
+        <option value="$PROJECT_DIR$/application/models/schedule.php" />
       </list>
     </option>
   </component>
@@ -558,13 +608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="1393" selection-end="1424" vertical-scroll-proportion="-12.75" vertical-offset="489" max-vertical-offset="1173">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/comments.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="34" selection-start="84" selection-end="84" vertical-scroll-proportion="-2.875" vertical-offset="0" max-vertical-offset="690">
@@ -616,23 +659,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/templates/nav.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="28" selection-start="2628" selection-end="2628" vertical-scroll-proportion="-11.34375" vertical-offset="1086" max-vertical-offset="1725">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="19" selection-start="205" selection-end="205" vertical-scroll-proportion="-3.125" vertical-offset="107" max-vertical-offset="2277">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/post.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="20" selection-start="502" selection-end="502" vertical-scroll-proportion="-15.09375" vertical-offset="69" max-vertical-offset="1633">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="2" selection-start="1392" selection-end="1392" vertical-scroll-proportion="-12.03125" vertical-offset="489" max-vertical-offset="1173">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/themecontroller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="2" selection-start="218" selection-end="218" vertical-scroll-proportion="-5.75" vertical-offset="0" max-vertical-offset="322">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/schedules.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="21" selection-start="57" selection-end="57" vertical-scroll-proportion="-2.15625" vertical-offset="0" max-vertical-offset="207">
           <folding />
         </state>
       </provider>
@@ -644,9 +694,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="19" selection-start="205" selection-end="205" vertical-scroll-proportion="-3.125" vertical-offset="107" max-vertical-offset="2277">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/templates/nav.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="28" selection-start="2628" selection-end="2628" vertical-scroll-proportion="-11.34375" vertical-offset="1086" max-vertical-offset="1725">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/posts.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="74" selection-start="971" selection-end="971" vertical-scroll-proportion="0.77607363" vertical-offset="138" max-vertical-offset="3013">
+        <state line="33" column="46" selection-start="979" selection-end="1205" vertical-scroll-proportion="-15.09375" vertical-offset="276" max-vertical-offset="3013">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/schedules.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="305" selection-end="305" vertical-scroll-proportion="-9.34375" vertical-offset="0" max-vertical-offset="621">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/schedule.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="4" selection-start="45" selection-end="45" vertical-scroll-proportion="0.109350234" vertical-offset="0" max-vertical-offset="631">
           <folding />
         </state>
       </provider>
