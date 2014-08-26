@@ -13,6 +13,7 @@ class Posts extends CI_Controller{
         $config['base_url'] = base_url().'posts/index/';
         $config['total_rows'] = $this->post->get_posts_count();
         $config['per_page'] = 5;
+        $config['use_page_numbers'] = true;
 
 		$config['prev_link'] = '&larr; Older';	
 		$config['prev_tag_open'] = '<li class="previous">';
