@@ -80,7 +80,7 @@ class Users extends CI_Controller{
         $data['title'] = "Create new account";
         $this->load->helper('form');
         $this->load->view('templates/header', $data);
-        $this->load->view('templates/nav');
+        $this->load->view('templates/nav', $data);
         $this->load->view('register_user');
         $this->load->view('templates/sidebar');
         $this->load->view('templates/footer');

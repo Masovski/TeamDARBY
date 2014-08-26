@@ -50,7 +50,12 @@
 <!-- Page Content -->
 <div class="container">
     <div class="row">
-
+        <?php if($errors){?>
+        <div class="alert alert-danger" role="alert">
+           <?=$errors?>
+        </div>
+        <?php } ?>
+        
         <!-- Blog Entries Column -->
         <div class="col-md-8">
 
