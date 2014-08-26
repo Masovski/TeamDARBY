@@ -1,6 +1,5 @@
-<h2>Register User</h2>
 <?php if($errors){?>
-<div style="background-color: #e13300; color: #ffffff">
+<div class="alert alert-danger" role="alert">
    <?=$errors?>
 </div>
 <?php } ?>
