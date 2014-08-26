@@ -1,6 +1,8 @@
+<link href='<?= asset_url() . "css/schedule.css"?>' rel="stylesheet"/>
 <?php
 $themes = $var_from_controller;
 ?>
+
 <?php
 if (!isset($themes)) {
 ?>
