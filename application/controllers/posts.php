@@ -71,6 +71,8 @@ class Posts extends CI_Controller{
                 'tags'=>$tags
             );
             $this->post->insert_post($data);
+            $this->session->set_flashdata('success', "You successfully created a new post.");
+
             redirect(base_url().'posts/');
         } else {
             $data['title'] = "Add New Post";

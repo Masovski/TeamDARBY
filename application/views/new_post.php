@@ -3,11 +3,11 @@
     <form action="<?=base_url()?>posts/new_post" method="post">
         <p>
             Title:<br/>
-            <input type="text" name="title"/>
+            <input type="text" name="title" required="required"/>
         </p>
         <p>
             Content:
-            <br/><textarea name="post"></textarea>
+            <br/><textarea name="post" required="required"></textarea>
         </p>
         <p>
             Tags:<br/>
