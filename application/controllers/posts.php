@@ -132,4 +132,22 @@ class Posts extends CI_Controller{
         return false;
     }
 
+    function archive($year=2014, $month=8, $start = 0) {
+        $data['posts'] = $this->post->get_posts(2147483647, $start);
+        foreach($data['posts'] as $row) {
+            if($year == substr($row['date_added'], 0, 4) && $month == date("n", strtotime($row['date_added']))) {
+                $data['archives'][] = $row;
+            }
+        }
+        $data[$year . $month]['count'] = sizeof($data['archives']);
+
+        $data['title'] = "Archives: ";
+        $data['author_permissions'] = $this->correct_permisions('author');
+        $this->load->view('templates/header', $data);
+        $this->load->view('templates/nav');
+        $this->load->view('archive');
+        $this->load->view('templates/sidebar');
+        $this->load->view('templates/footer');
+    }
+
 }

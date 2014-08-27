@@ -21,34 +21,42 @@
 
     <!-- Blog Categories Well -->
     <div class="well">
-        <h4>Blog Categories</h4>
+        <h4>Posts archive</h4>
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-12">
                 <ul class="list-unstyled">
-                    <li><a href="#">Category Name</a>
-                    </li>
-                    <li><a href="#">Category Name</a>
-                    </li>
-                    <li><a href="#">Category Name</a>
-                    </li>
-                    <li><a href="#">Category Name</a>
-                    </li>
-                </ul>
-            </div>
+                <?php
+                // get list of blog-items
+                $archives = $this->post->get_posts(2147483647, 0);
+
+                $last_year_month = "";
+                $counter = 0;
+                // traverse items in foreach loop
+                foreach($archives as $row) {
+                    // extract year and month
+                    $year_month = substr($row["date_added"], 0, 7);
+                    $counter++;
+                    // if year and month has changed
+                    if ($year_month != $last_year_month) {
+                        // if not the first heading, close previous UL
+                        if ($last_year_month != "") {  echo "</li>\n"; }
+
+                        $last_year_month = $year_month;
+                        $year = substr($year_month, 0, 4);
+                        $month = date("n", strtotime($last_year_month));
+
+
+
+                ?>
+
+                <a href="<?= base_url() . "posts/archive/$year/$month"; ?>"><?= date("F", strtotime($last_year_month)) . " " . $year ?></a> <span class='badge'><?=$year.$month['count']?></span>
+                        <?php echo "<li>\n";
+                    }
+                }?>
+                    </ul>
+             </div>
             <!-- /.col-lg-6 -->
-            <div class="col-lg-6">
-                <ul class="list-unstyled">
-                    <li><a href="#">Category Name</a>
-                    </li>
-                    <li><a href="#">Category Name</a>
-                    </li>
-                    <li><a href="#">Category Name</a>
-                    </li>
-                    <li><a href="#">Category Name</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.col-lg-6 -->
+
         </div>
         <!-- /.row -->
     </div>
