@@ -2,7 +2,9 @@
 <div class="container">
     <div class="row">
         <div class="col-md-10">
-		<?=$abouts?>
+		<?php foreach ($abouts as $member) {
+            echo $member['name'] . "<br>";
+        }?>
 <?php for($i = 0; $i < 6 ; $i++){ ?>
 				<div id="user-1">					
 					<div class="information">

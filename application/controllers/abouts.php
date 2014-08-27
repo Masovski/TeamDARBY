@@ -1,18 +1,22 @@
 <?php
 
 class Abouts Extends CI_Controller{
-    
+
+    function __construct() {
+        parent::__construct();
+
+        $this->load->model('about');
+    }
+
 	function index() {
 		
 		$data['title'] = "Meet us - Team Darby";
-		$this->load->view('templates/header', $data);
+		$data['abouts']= $this->about->get_data();
+
+        $this->load->view('templates/header', $data);
         $this->load->view('templates/nav');
-		
-		$this->load->model('about');
-		$data['abouts']=$this->about->get_data();
-		$this->load->view('about');
-		
-		$this->load->view('templates/footer');
+        $this->load->view('about');
+        $this->load->view('templates/footer');
 	}
 }
 ?>
