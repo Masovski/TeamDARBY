@@ -145,7 +145,8 @@ class Posts extends CI_Controller{
                 $data['archives'][] = $row;
             }
         }
-        $data[$year . $month]['count'] = sizeof($data['archives']);
+        $archive_var = $year.$month;
+        $data[$archive_var] = sizeof($data['archives']);
 
         $data['title'] = "Archives: ";
         $data['author_permissions'] = $this->correct_permisions('author');
