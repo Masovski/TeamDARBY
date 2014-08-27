@@ -8,12 +8,15 @@
 
 <!-- Author -->
 <p class="lead">
-    by <a href="#">Team Darby</a>
+    by <a href="#"><?=$post['author'];?></a>
 </p>
 
 <!-- Date/Time -->
-<p><span class="glyphicon glyphicon-time"></span> Posted on <?= $date; ?></p>
-
+<?php if($author_permissions) { ?>
+    <span class="glyphicon glyphicon-edit"></span> <a href="<?= base_url() ?>posts/editpost/<?= $post['postID'] ?>">Edit</a> |
+    <span class="glyphicon glyphicon-remove-circle"></span> <a href="<?= base_url() ?>posts/deletepost/<?= $post['postID']; ?>">Delete</a> <?php } ?>
+    <p><span class="glyphicon glyphicon-time"></span> Posted on <?= $date; ?></p>
+    <p><span class="glyphicon glyphicon-eye-open"></span> <strong><?= $post['views'];?></strong></p>
 <hr>
 
 <!-- Preview Image -

@@ -15,10 +15,10 @@ class Posts extends CI_Controller{
         $config['per_page'] = 5;
         $config['use_page_numbers'] = true;
 
-		$config['prev_link'] = '&larr; Older';
+		$config['prev_link'] = '&larr; Newer';
 		$config['prev_tag_open'] = '<li class="previous">';
 		$config['prev_tag_close'] = '</li>';
-		$config['next_link'] = 'Newer &rarr;';
+		$config['next_link'] = 'Older &rarr;';
 		$config['next_tag_open'] = '<li class="next">';
 		$config['next_tag_close'] = '</li>';
 
@@ -38,10 +38,13 @@ class Posts extends CI_Controller{
         $this->load->model('comment');
         
         $data['comments'] = $this->comment->get_comments($postID);
+        $data['author_permissions'] = $this->correct_permisions('author');
         $data['post'] = $this->post->get_post($postID);
-
+        $data['views'] = $data['post']['views'];
         $data['title'] = html_escape($data['post']['title']);
 
+        $data_post = array('views'=> $data['views'] + 1);
+        $this->post->update_post($postID, $data_post);
         $this->load->view('templates/header', $data);
         $this->load->view('templates/nav');
         $this->load->view('post', $data);
@@ -58,6 +61,7 @@ class Posts extends CI_Controller{
             $data = array(
                 'title'=>$_POST['title'],
                 'post'=>$_POST['post'],
+                'author'=>$this->session->userdata('username'),
                 'active'=>1
             );
             $this->post->insert_post($data);

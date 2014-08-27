@@ -11,7 +11,6 @@ class Users extends CI_Controller{
             $this->load->model('user');
             $username = $this->input->post('username', true);
             $password = $this->input->post('password', true);
-            $type = $this->input->post('user_type', true);
             
             $user = $this->user->login($username, $password);
             if(!$user){
@@ -58,7 +57,7 @@ class Users extends CI_Controller{
             $this->load->library('form_validation');
             $this->form_validation->set_rules($config);
             if ($this->form_validation->run() == FALSE) {
-                $this->session->set_flashdata('errors', validation_errors());
+                $data['errors'] = validation_errors();
             } else {
                 $data = array(
                     'username' => $this->input->post('username', true),
@@ -70,7 +69,7 @@ class Users extends CI_Controller{
                 $this->session->set_userdata('userID', $userID);
                 $this->session->set_userdata('user_type', $data['user_type']);
                 $this->session->set_userdata('username', $data['username']);
-
+                $this->session->set_flashdata('success', "You successfully created your account.");
                 redirect(base_url() . 'posts');
             }
         }
