@@ -12,6 +12,8 @@
     <title><?= $title . MAIN_TITLE ?></title>
 
     <link href="<?= asset_url() . "css/styles.css"?>" rel="stylesheet">
+	<link rel="icon" href="<?= asset_url().'images/favicon.ico'; ?>" type="image/x-icon">
+	<link rel="shortcut icon" href="<?= asset_url().'images/favicon.ico'; ?>" />
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
