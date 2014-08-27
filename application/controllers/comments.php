@@ -36,7 +36,7 @@ class Comments Extends CI_Controller{
                 'comment' => $this->input->post('comment', true)
             );
             
-            $this->comment->add_comment($data);
+            $this->comment->add_comment(html_escape($data));
             $this->session->set_flashdata('success', "You successfully added a comment");
         }
         

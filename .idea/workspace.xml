@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5dd8bad1-8f25-4435-93a8-cbe8fefe0104" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/post_index.php" afterPath="$PROJECT_DIR$/application/views/post_index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/posts.php" afterPath="$PROJECT_DIR$/application/controllers/posts.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/comments.php" afterPath="$PROJECT_DIR$/application/controllers/comments.php" />
     </list>
     <ignored path="TeamDARBY.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,10 +34,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post_index.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="post_index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/post_index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="46" selection-start="526" selection-end="527" vertical-scroll-proportion="0.39593115" vertical-offset="0" max-vertical-offset="1219">
+            <state line="11" column="46" selection-start="526" selection-end="527" vertical-scroll-proportion="-5.75" vertical-offset="69" max-vertical-offset="1219">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="comments.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/controllers/comments.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="58" selection-start="1297" selection-end="1297" vertical-scroll-proportion="0.65030676" vertical-offset="450" max-vertical-offset="1173">
               <folding />
             </state>
           </provider>
@@ -67,7 +74,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/helpers/utility_helper.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/source strap/blog-home/blog-home/index.html" />
         <option value="$PROJECT_DIR$/application/config/autoload.php" />
@@ -118,6 +124,7 @@
         <option value="$PROJECT_DIR$/application/views/post.php" />
         <option value="$PROJECT_DIR$/application/views/templates/nav.php" />
         <option value="$PROJECT_DIR$/application/views/post_index.php" />
+        <option value="$PROJECT_DIR$/application/controllers/comments.php" />
       </list>
     </option>
   </component>
@@ -428,13 +435,6 @@
     <entry file="file://$PROJECT_DIR$/assets/css/about.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="16" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0" vertical-offset="46" max-vertical-offset="598">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/comments.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="12" selection-start="1299" selection-end="1376" vertical-scroll-proportion="-13.96875" vertical-offset="450" max-vertical-offset="1173">
           <folding />
         </state>
       </provider>
@@ -750,7 +750,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/post_index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="46" selection-start="526" selection-end="527" vertical-scroll-proportion="0.39593115" vertical-offset="0" max-vertical-offset="1219">
+        <state line="11" column="46" selection-start="526" selection-end="527" vertical-scroll-proportion="-5.75" vertical-offset="69" max-vertical-offset="1219">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/comments.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="58" selection-start="1297" selection-end="1297" vertical-scroll-proportion="0.65030676" vertical-offset="450" max-vertical-offset="1173">
           <folding />
         </state>
       </provider>
