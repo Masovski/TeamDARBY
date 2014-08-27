@@ -1,4 +1,6 @@
+<link href='<?= asset_url() . "css/edit_post.css"?>' rel="stylesheet"/>
 <?php echo form_open(base_url().'users/register'); ?>
+<div class="post">
     <p>
         <?=form_label('Username', 'username')?>:
         <?php $data_form = array(
@@ -46,4 +48,5 @@
         ?>
     </p>
     <?php echo form_submit('', 'Register') ?>
+</div>
 <?php echo form_close() ?>
