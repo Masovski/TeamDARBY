@@ -1,7 +1,7 @@
         <?php
         if (!isset($posts) || count($posts) == 0) {
             ?>
-            <p>There are search results...</p>
+            <p>There are no search results...</p>
         <?php } else { ?>
             <?php foreach ($posts as $row) {
                 $row['date_added'] = date("F jS, Y \\a\\t H:i", strtotime($row['date_added'])); ?>
