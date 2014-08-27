@@ -23,7 +23,7 @@
                     <a href="<?=base_url()?>abouts">About Us</a>
                 </li>               
                 <li>
-                    <a href="http://www.urbandictionary.com/define.php?term=Darby">What is Darby?</a>
+                    <a href="http://www.urbandictionary.com/define.php?term=Darby" target="_blank">What is Darby?</a>
                 </li>
             </ul>
             <ul class="nav navbar-nav profile-bar">
