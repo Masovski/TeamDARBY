@@ -21,7 +21,10 @@
                 <?php } ?>
                 <li>
                     <a href="<?=base_url()?>abouts">About Us</a>
-                </li>               
+                </li>
+                <li>
+                    <a href="<?=base_url()?>schedules">Schedules</a>
+                </li>
                 <li>
                     <a href="http://www.urbandictionary.com/define.php?term=Darby" target="_blank">What is Darby?</a>
                 </li>
