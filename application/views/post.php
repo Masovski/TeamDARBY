@@ -16,7 +16,7 @@
     <span class="glyphicon glyphicon-edit"></span> <a href="<?= base_url() ?>posts/editpost/<?= $post['postID'] ?>">Edit</a> |
     <span class="glyphicon glyphicon-remove-circle"></span> <a href="<?= base_url() ?>posts/deletepost/<?= $post['postID']; ?>">Delete</a> <?php } ?>
     <p><span class="glyphicon glyphicon-time"></span> Posted on <?= $date; ?></p>
-    <p><span class="glyphicon glyphicon-eye-open"></span> <strong><?= $post['views'];?></strong></p>
+    <p><span class="glyphicon glyphicon-eye-open"></span> <strong><?= $post['views']+1;?></strong></p>
 <hr>
 
 <!-- Preview Image -
