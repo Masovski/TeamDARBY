@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5dd8bad1-8f25-4435-93a8-cbe8fefe0104" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/edit_post.css" afterPath="$PROJECT_DIR$/assets/css/edit_post.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/register_user.php" afterPath="$PROJECT_DIR$/application/views/register_user.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TeamDARBY.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,10 +35,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register_user.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="register_user.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/register_user.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="53" selection-start="125" selection-end="125" vertical-scroll-proportion="0.035276074" vertical-offset="0" max-vertical-offset="1311">
+            <state line="38" column="58" selection-start="1097" selection-end="1097" vertical-scroll-proportion="-6.71875" vertical-offset="659" max-vertical-offset="1311">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit_post.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/css/edit_post.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="76" column="13" selection-start="1906" selection-end="1906" vertical-scroll-proportion="0.8406433" vertical-offset="1173" max-vertical-offset="1932">
               <folding />
             </state>
           </provider>
@@ -110,6 +119,7 @@
         <option value="$PROJECT_DIR$/application/controllers/posts.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/sidebar 2.php" />
         <option value="$PROJECT_DIR$/application/views/templates/sidebar.php" />
+        <option value="$PROJECT_DIR$/assets/css/edit_post.css" />
         <option value="$PROJECT_DIR$/application/views/register_user.php" />
       </list>
     </option>
@@ -383,11 +393,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/css/blog-home.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="1" selection-start="379" selection-end="379" vertical-scroll-proportion="0.41132638" vertical-offset="0" max-vertical-offset="671" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../source strap/blog-post/blog-post/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="75" column="0" selection-start="2532" selection-end="2532" vertical-scroll-proportion="4.3125" vertical-offset="1863" max-vertical-offset="4485" />
@@ -736,7 +741,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/register_user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="53" selection-start="125" selection-end="125" vertical-scroll-proportion="0.035276074" vertical-offset="0" max-vertical-offset="1311">
+        <state line="38" column="58" selection-start="1097" selection-end="1097" vertical-scroll-proportion="-6.71875" vertical-offset="659" max-vertical-offset="1311">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/edit_post.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="13" selection-start="1906" selection-end="1906" vertical-scroll-proportion="0.8406433" vertical-offset="1173" max-vertical-offset="1932">
           <folding />
         </state>
       </provider>

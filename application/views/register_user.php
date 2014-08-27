@@ -2,7 +2,7 @@
 <?php echo form_open(base_url().'users/register'); ?>
 <div class="post">
     <p>
-        <?=form_label('Username', 'username')?>:
+        <?=form_label('Username', 'username')?>
         <?php $data_form = array(
             'name' => 'username',
             'id'=>'username',
@@ -13,7 +13,7 @@
         ?>
     </p>
     <p>
-        <?=form_label('Email', 'email')?>:
+        <?=form_label('Email', 'email')?>
         <?php $data_form = array(
             'name' => 'email',
             'id'=>'email',
@@ -24,7 +24,7 @@
         ?>
     </p>
     <p>
-        <?=form_label('Password', 'password')?>:
+        <?=form_label('Password', 'password')?>
         <?php
             $data_form=array(
                 'name'=>'password',
@@ -36,7 +36,7 @@
         ?>
     </p>
     <p>
-        <?=form_label('Password confirmed', 'password2')?>:
+        <?=form_label('Password confirmed', 'password2')?>
         <?php
             $data_form=array(
                 'name'=>'password2',
