@@ -76,6 +76,45 @@
         <!-- /.row -->
     </div>
 
+    <div class="well">
+        <h4>Tags cloud</h4>
+        <div class="row">
+            <div class="col-lg-12">
+                <ul class="list-unstyled">
+                <?php
+                // get list of blog-items
+                $all_posts = $this->post->get_posts(2147483647, 0);
+
+                $last_year_month = "";
+
+                // traverse items in foreach loop
+                $tags_cloud = array();
+                foreach($all_posts as $post) {
+                    $tags = explode(",",$post['tags']);
+                    foreach ($tags as $tag) {
+                        if(empty($tags_cloud[$tag])){
+                            $tags_cloud[$tag] = 1;
+                        } else {
+                            $tags_cloud[$tag] += 1;
+                        }
+                    }
+                }
+                arsort($tags_cloud);
+
+                foreach($tags_cloud as $tag => $cnt){ 
+                    if($tag=="") { continue; }?>
+                <li><a href="<?= base_url() . "search/index?searchphrase=".$tag."&search_by=tag"; ?>">
+                    <?= $tag ?>
+                </a> <span class='badge'><?=$cnt?></span></li>
+                        <?php
+                    }?>
+                    </ul>
+             </div>
+            <!-- /.col-lg-6 -->
+
+        </div>
+        <!-- /.row -->
+    </div>
     <!-- Side Widget Well -->
     <div class="well">
         <h4>Support us</h4>
