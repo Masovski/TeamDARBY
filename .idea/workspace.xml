@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5dd8bad1-8f25-4435-93a8-cbe8fefe0104" name="Default" comment="">
-      <change type="DELETED" beforePath="F:\xampp\htdocs\TeamDARBY\sql_changes.sql" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/templates/nav.php" afterPath="$PROJECT_DIR$/application/views/templates/nav.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/post.php" afterPath="$PROJECT_DIR$/application/views/post.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/post_index.php" afterPath="$PROJECT_DIR$/application/views/post_index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/posts.php" afterPath="$PROJECT_DIR$/application/controllers/posts.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/users.php" afterPath="$PROJECT_DIR$/application/controllers/users.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/schedule.css" afterPath="$PROJECT_DIR$/assets/css/schedule.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/schedules.php" afterPath="$PROJECT_DIR$/application/controllers/schedules.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/schedules.php" afterPath="$PROJECT_DIR$/application/views/schedules.php" />
     </list>
     <ignored path="TeamDARBY.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,15 +36,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="users.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/users.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="37" selection-start="792" selection-end="792" vertical-scroll-proportion="-15.09375" vertical-offset="0" max-vertical-offset="2208">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="post_index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/post_index.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -58,28 +45,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="post.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/post.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="100" selection-start="780" selection-end="780" vertical-scroll-proportion="0.64788735" vertical-offset="0" max-vertical-offset="1702">
+            <state line="18" column="100" selection-start="780" selection-end="780" vertical-scroll-proportion="-12.9375" vertical-offset="0" max-vertical-offset="1702">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="posts.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/posts.php">
+      <file leaf-file-name="schedule.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/schedule.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="74" selection-start="1434" selection-end="1434" vertical-scroll-proportion="-13.65625" vertical-offset="483" max-vertical-offset="3105">
+            <state line="20" column="14" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="2553">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/post.php">
+      <file leaf-file-name="schedules.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/schedules.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="5" selection-start="1215" selection-end="1215" vertical-scroll-proportion="-30.1875" vertical-offset="0" max-vertical-offset="1150">
+            <state line="11" column="69" selection-start="447" selection-end="447" vertical-scroll-proportion="0.40938511" vertical-offset="0" max-vertical-offset="618">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="schedules.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/schedules.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="21" selection-start="199" selection-end="199" vertical-scroll-proportion="-7.1875" vertical-offset="0" max-vertical-offset="621">
               <folding />
             </state>
           </provider>
@@ -153,9 +149,7 @@
         <option value="$PROJECT_DIR$/application/config/routes.php" />
         <option value="$PROJECT_DIR$/application/controllers/schedule.php" />
         <option value="$PROJECT_DIR$/application/controllers/themecontroller.php" />
-        <option value="$PROJECT_DIR$/application/views/schedules.php" />
         <option value="$PROJECT_DIR$/application/models/schedule.php" />
-        <option value="$PROJECT_DIR$/application/controllers/schedules.php" />
         <option value="$PROJECT_DIR$/application/models/user.php" />
         <option value="$PROJECT_DIR$/application/views/register_user.php" />
         <option value="$PROJECT_DIR$/application/views/login.php" />
@@ -169,6 +163,9 @@
         <option value="$PROJECT_DIR$/application/views/post_index.php" />
         <option value="$PROJECT_DIR$/application/controllers/posts.php" />
         <option value="$PROJECT_DIR$/application/views/post.php" />
+        <option value="$PROJECT_DIR$/application/controllers/schedules.php" />
+        <option value="$PROJECT_DIR$/assets/css/schedule.css" />
+        <option value="$PROJECT_DIR$/application/views/schedules.php" />
       </list>
     </option>
   </component>
@@ -234,6 +231,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TeamDARBY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TeamDARBY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TeamDARBY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TeamDARBY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="application" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -253,46 +282,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TeamDARBY" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TeamDARBY" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TeamDARBY" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TeamDARBY" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -409,13 +398,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/controllers/users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="19" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0" vertical-offset="207" max-vertical-offset="2277">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/comment.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="529">
@@ -691,13 +673,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/posts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="74" selection-start="1434" selection-end="1434" vertical-scroll-proportion="-13.65625" vertical-offset="483" max-vertical-offset="3105">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/post_index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="111" selection-start="796" selection-end="1347" vertical-scroll-proportion="-10.0625" vertical-offset="207" max-vertical-offset="1081">
@@ -705,9 +680,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/posts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="74" selection-start="1434" selection-end="1434" vertical-scroll-proportion="-26.59375" vertical-offset="69" max-vertical-offset="3105">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/schedules.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="21" selection-start="199" selection-end="199" vertical-scroll-proportion="-7.1875" vertical-offset="0" max-vertical-offset="621">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/schedule.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="14" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="2553">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/post.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="100" selection-start="780" selection-end="780" vertical-scroll-proportion="0.64788735" vertical-offset="0" max-vertical-offset="1702">
+        <state line="18" column="100" selection-start="780" selection-end="780" vertical-scroll-proportion="-12.9375" vertical-offset="0" max-vertical-offset="1702">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/schedules.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="69" selection-start="447" selection-end="447" vertical-scroll-proportion="0.40938511" vertical-offset="0" max-vertical-offset="618">
           <folding />
         </state>
       </provider>
