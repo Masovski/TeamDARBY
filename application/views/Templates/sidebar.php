@@ -26,7 +26,7 @@
             </label>
             <label>
                 Content
-                <input type="radio" name="search_by" value="content" "<?=($search_by=='content')?"checked='checked'":"";?>"/>
+                <input type="radio" name="search_by" value="content" <?=($search_by=='content')?"checked='checked'":"";?>/>
             </label>
         </form>
     </div>
