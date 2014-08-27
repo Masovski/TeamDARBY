@@ -1,0 +1,7 @@
+Tehnologies:
+ Version control: GitHub - https://github.com/Masovski/TeamDARBY
+ CSS FW:   Bootstrap
+ PHP FW:   CodeIgniter
+
+Project name and purpose:
+  Blog System.
