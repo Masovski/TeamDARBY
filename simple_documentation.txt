@@ -1,7 +1,15 @@
+Team members:
+ Tsvetan Iliev - Masovski
+ Martin Tsekov
+ Milen Dimitrov - MeLean
+ Stefan Kolev - Steph Kol 
+ Maria Nikolova
+ Tihomir Pelev
+ 
 Tehnologies:
  Version control: GitHub - https://github.com/Masovski/TeamDARBY
  CSS FW:   Bootstrap
  PHP FW:   CodeIgniter
 
 Project name and purpose:
-  Blog System.
+  Darby Blog System.
