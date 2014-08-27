@@ -26,6 +26,12 @@
                 <!--<img class="img-responsive" src="http://placehold.it/900x300" alt="">
                 <hr>-->
                 <p><?= substr(strip_tags(html_escape($row['post'])), 0, 500) . ".." ?></p>
+                <?php $tags = explode(",", $row['tags']) ?>
+                <?php foreach($tags as $tag) { ?>
+                    <span class="label label-info"><?=$tag?></span>
+                <?php } ?>
+                <br/>
+                <br/>
                 <a class="btn btn-primary" href="<?= base_url() ?>posts/post/<?= $row['postID'] ?>">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
                         </div>
                     </div>

@@ -6,15 +6,19 @@
 
 <form action="<?=base_url()?>posts/editpost/<?=$post['postID']?>" method="post">
     <p>
-        Title:
+        Title:<br/>
         <input type="text" name="title" value= "<?=$post['title']?>"/>
     </p>
     <p>
-        Description:
+        Content:
         <br/><textarea name="post"><?=$post['post']?></textarea>
     </p>
     <p>
-        <input type="submit" value="Edit Post"/>
+        Tags:<br/>
+        <input type="text" name="tags" value= "<?=$post['tags']?>"/>
+    </p>
+    <p>
+        <input type="submit" value="Save Changes"/>
     </p>
 </form>
 </div>

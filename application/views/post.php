@@ -26,6 +26,12 @@
 
 <!-- Post Content -->
 <p><?= $post['post'] ?></p>
+
+<!-- Tags -->
+<?php $tags = explode(",", $post['tags']) ?>
+<?php foreach($tags as $tag) { ?>
+    <span class="label label-info"><?=$tag?></span>
+<?php } ?>
 <hr>
 
 <!-- Blog Comments -->

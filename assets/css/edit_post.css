@@ -2,7 +2,6 @@
     position: relative;
     margin: 0 auto;
     padding: 20px;
-    width: 330px;
     background: white;
     border-radius: 3px;
     box-shadow: 0 0 200px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3);
@@ -25,7 +24,7 @@ input,p {
 input[type=text] {
     margin: 5px;
     padding: 0 10px;
-    width: 200px;
+    width: 80%;
     height: 34px;
     color: #404040;
     background: white;
@@ -38,8 +37,8 @@ input[type=text] {
 textarea{
     margin: 5px;
     padding: 0 10px;
-    width: 200px;
-    height: 70px;
+    width: 80%;
+    height: 100px;
     color: #404040;
     background: white;
     border: 1px solid;

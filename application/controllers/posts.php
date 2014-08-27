@@ -40,6 +40,7 @@ class Posts extends CI_Controller{
         $data['comments'] = $this->comment->get_comments($postID);
         $data['author_permissions'] = $this->correct_permisions('author');
         $data['post'] = $this->post->get_post($postID);
+        $data['tags'] = explode(", ", $data['post']['tags']);
         $data['views'] = $data['post']['views'];
         $data['title'] = html_escape($data['post']['title']);
 
@@ -58,11 +59,15 @@ class Posts extends CI_Controller{
         }
 
         if($_POST){
+            $tags = $this->input->post('tags', true);
+            $tags = join(",", array_map('trim', explode(',', $tags)));
+            $tags =  join(",", array_filter( explode(",", $tags), 'strlen' ));
             $data = array(
-                'title'=>$_POST['title'],
-                'post'=>$_POST['post'],
+                'title'=>$this->input->post('title', true),
+                'post'=>$this->input->post('post', true),
                 'author'=>$this->session->userdata('username'),
-                'active'=>1
+                'active'=>1,
+                'tags'=>$tags
             );
             $this->post->insert_post($data);
             redirect(base_url().'posts/');
