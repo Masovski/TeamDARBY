@@ -42,7 +42,7 @@
                 $archives = $this->post->get_posts(2147483647, 0);
 
                 $last_year_month = "";
-                $count = 0;
+
                 // traverse items in foreach loop
                 foreach($archives as $row) {
                     // extract year and month
@@ -50,19 +50,23 @@
 
                     // if year and month has changed
                     if ($year_month != $last_year_month) {
-                        // if not the first heading, close previous UL
-                        if ($last_year_month != "") {
-                            echo "</li>\n";
-                        }
 
                         $last_year_month = $year_month;
                         $year = substr($year_month, 0, 4);
                         $month = date("n", strtotime($last_year_month));
+                        foreach($archives as $post) {
+                            if($year == substr($post['date_added'], 0, 4) && $month == date("n", strtotime($post['date_added']))) {
+                                $rows_array[] = $post;
+                            }
+                        }
+                        $count = sizeof($rows_array);
+                        $rows_array = array();
                 ?>
 
-                <a href="<?= base_url() . "posts/archive/$year/$month"; ?>"><?= date("F", strtotime($last_year_month)) . " " . $year ?></a> <span class='badge'><?="Not working yet"?></span>
-                        <?php echo "<li>\n";
+                <li><a href="<?= base_url() . "posts/archive/$year/$month"; ?>"><?= date("F", strtotime($last_year_month)) . " " . $year ?></a> <span class='badge'><?=$count?></span></li>
+                        <?php
                     }
+
                 }?>
                     </ul>
              </div>
