@@ -1,4 +1,0 @@
-TeamDARBY
-=========
-
-[Teamwork Project] @ SoftUni

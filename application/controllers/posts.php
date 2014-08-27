@@ -42,7 +42,7 @@ class Posts extends CI_Controller{
         $data['post'] = $this->post->get_post($postID);
         $data['tags'] = explode(", ", $data['post']['tags']);
         $data['views'] = $data['post']['views'];
-        $data['title'] = html_escape($data['post']['title']);
+        $data['title'] = $data['post']['title'];
 
         $data_post = array('views'=> $data['views'] + 1);
         $this->post->update_post($postID, $data_post);
@@ -105,7 +105,7 @@ class Posts extends CI_Controller{
             redirect(base_url().'posts/post/' . $postID);
         }
         $data['post'] = $this->post->get_post($postID);
-        $data['title'] = "Edit Post: " . html_escape($data['post']['title']);
+        $data['title'] = "Edit Post: " . $data['post']['title'];
         $this->load->view('templates/header', $data);
         $this->load->view('templates/nav');
         $this->load->view('edit_post');

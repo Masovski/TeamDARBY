@@ -9,7 +9,7 @@
                 <div class="panel panel-primary">
                     <div class="panel-heading">
                     <h3 class="panel-title"><a href="<?= base_url() ?>posts/post/<?= $row['postID'] ?>">
-                            <?= html_escape($row['title']); ?></a>
+                            <?= $row['title']; ?></a>
                     </h3>
                     </div>
                     <div class="panel-body">
@@ -25,7 +25,7 @@
                         <hr>
                 <!--<img class="img-responsive" src="http://placehold.it/900x300" alt="">
                 <hr>-->
-                <p><?= substr(strip_tags(html_escape($row['post'])), 0, 500) . ".." ?></p>
+                <p><?= substr($row['post'], 0, 500) . ".." ?></p>
                 <?php $tags = explode(",", $row['tags']) ?>
                 <?php foreach($tags as $tag) { ?>
                     <span class="label label-info"><?=$tag?></span>

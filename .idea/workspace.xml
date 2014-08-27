@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5dd8bad1-8f25-4435-93a8-cbe8fefe0104" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/edit_post.css" afterPath="$PROJECT_DIR$/assets/css/edit_post.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/login.css" afterPath="$PROJECT_DIR$/assets/css/login.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/login.php" afterPath="$PROJECT_DIR$/application/views/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/post_index.php" afterPath="$PROJECT_DIR$/application/views/post_index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/posts.php" afterPath="$PROJECT_DIR$/application/controllers/posts.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TeamDARBY.iws" />
@@ -28,55 +27,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="posts.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/posts.php">
+      <file leaf-file-name="nav.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/templates/nav.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="32" selection-start="515" selection-end="515" vertical-scroll-proportion="-7.3125" vertical-offset="157" max-vertical-offset="3841">
+            <state line="77" column="26" selection-start="3273" selection-end="3273" vertical-scroll-proportion="-38.09375" vertical-offset="552" max-vertical-offset="1978">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register_user.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/register_user.php">
+      <file leaf-file-name="post_index.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/post_index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="58" selection-start="1097" selection-end="1097" vertical-scroll-proportion="-27.3125" vertical-offset="0" max-vertical-offset="1311">
+            <state line="11" column="46" selection-start="526" selection-end="527" vertical-scroll-proportion="0.39593115" vertical-offset="0" max-vertical-offset="1219">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit_post.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/edit_post.css">
+      <file leaf-file-name="post.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/post.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="6" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0" vertical-offset="1271" max-vertical-offset="1955">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/css/login.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="137" column="13" selection-start="3357" selection-end="3357" vertical-scroll-proportion="0.83187133" vertical-offset="2582" max-vertical-offset="3312">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="39" selection-start="321" selection-end="321" vertical-scroll-proportion="-5.75" vertical-offset="0" max-vertical-offset="437">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new_post.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/new_post.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="71" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="575">
+            <state line="27" column="20" selection-start="931" selection-end="931" vertical-scroll-proportion="-19.40625" vertical-offset="0" max-vertical-offset="1840">
               <folding />
             </state>
           </provider>
@@ -116,8 +88,6 @@
         <option value="$PROJECT_DIR$/application/models/user.php" />
         <option value="$PROJECT_DIR$/assets/css/about.css" />
         <option value="$PROJECT_DIR$/application/controllers/users.php" />
-        <option value="$PROJECT_DIR$/application/views/post_index.php" />
-        <option value="$PROJECT_DIR$/application/views/post.php" />
         <option value="$PROJECT_DIR$/application/controllers/abouts.php" />
         <option value="$PROJECT_DIR$/application/views/about.php" />
         <option value="$PROJECT_DIR$/application/models/about.php" />
@@ -131,16 +101,23 @@
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/config.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/autoload.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/users.php" />
-        <option value="$PROJECT_DIR$/application/views/templates/nav.php" />
         <option value="$PROJECT_DIR$/application/controllers/schedules.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/schedules 2.php" />
-        <option value="$PROJECT_DIR$/application/controllers/posts.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/sidebar 2.php" />
         <option value="$PROJECT_DIR$/application/views/templates/sidebar.php" />
         <option value="$PROJECT_DIR$/application/views/register_user.php" />
         <option value="$PROJECT_DIR$/assets/css/edit_post.css" />
         <option value="$PROJECT_DIR$/application/views/login.php" />
         <option value="$PROJECT_DIR$/assets/css/login.css" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/sidebar 2.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/search_index.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/post_index.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/post.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/nav.php" />
+        <option value="$PROJECT_DIR$/application/controllers/posts.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/posts.php" />
+        <option value="$PROJECT_DIR$/application/views/post.php" />
+        <option value="$PROJECT_DIR$/application/views/templates/nav.php" />
+        <option value="$PROJECT_DIR$/application/views/post_index.php" />
       </list>
     </option>
   </component>
@@ -413,55 +390,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../source strap/blog-post/blog-post/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="0" selection-start="2532" selection-end="2532" vertical-scroll-proportion="4.3125" vertical-offset="1863" max-vertical-offset="4485" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/custom-nav.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="505" selection-end="554" vertical-scroll-proportion="0.70614034" vertical-offset="0" max-vertical-offset="684" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="33" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/libraries/Pagination.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="25" selection-start="1216" selection-end="1241" vertical-scroll-proportion="0.43192488" vertical-offset="552" max-vertical-offset="7935" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="2" selection-start="151" selection-end="159" vertical-scroll-proportion="-1.5555556" vertical-offset="1063" max-vertical-offset="1702" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/constants.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="25" selection-start="1736" selection-end="1736" vertical-scroll-proportion="0.7120501" vertical-offset="603" max-vertical-offset="1242">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="204" column="30" selection-start="6834" selection-end="6845" vertical-scroll-proportion="7.0140843" vertical-offset="210" max-vertical-offset="8464" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="4830">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/profiler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/system/helpers/form_helper.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1030" column="14" selection-start="21323" selection-end="21323" vertical-scroll-proportion="0.22535211" vertical-offset="23546" max-vertical-offset="24380">
@@ -553,13 +481,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="888" selection-end="888" vertical-scroll-proportion="0.64788735" vertical-offset="161" max-vertical-offset="1840">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/config/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="2" selection-start="1392" selection-end="1392" vertical-scroll-proportion="0.6257669" vertical-offset="466" max-vertical-offset="1173">
@@ -570,13 +491,6 @@
     <entry file="file://$PROJECT_DIR$/assets/css/sidebar.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="23" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="184">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="0" selection-start="3011" selection-end="3011" vertical-scroll-proportion="-24.4375" vertical-offset="1150" max-vertical-offset="2093">
           <folding />
         </state>
       </provider>
@@ -592,22 +506,6 @@
             <marker date="1409155043475" expanded="true" signature="-1:-1" placeholder="..." />
             <marker date="1409155043475" expanded="true" signature="-1:-1" placeholder="..." />
             <marker date="1409155043475" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/post_index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="5" selection-start="2219" selection-end="2300" vertical-scroll-proportion="-15.65625" vertical-offset="534" max-vertical-offset="1219">
-          <folding>
-            <marker date="1409155043476" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1409155043476" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1409155043476" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1409155043476" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1409155043476" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1409155043476" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1409155043476" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1409155043476" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -703,37 +601,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/templates/nav.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="55" selection-start="1316" selection-end="1316" vertical-scroll-proportion="0.8998435" vertical-offset="0" max-vertical-offset="1978">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/templates/sidebar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="16" selection-start="1564" selection-end="1564" vertical-scroll-proportion="-0.03599374" vertical-offset="1035" max-vertical-offset="2323">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/sidebar 2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="0" selection-start="1972" selection-end="1972" vertical-scroll-proportion="0.3599374" vertical-offset="989" max-vertical-offset="2300">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/about.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="67" selection-start="358" selection-end="358" vertical-scroll-proportion="0.32394367" vertical-offset="0" max-vertical-offset="1357">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/posts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="32" selection-start="515" selection-end="515" vertical-scroll-proportion="-7.3125" vertical-offset="157" max-vertical-offset="3841">
           <folding />
         </state>
       </provider>
@@ -768,7 +638,119 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/login.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="137" column="13" selection-start="3357" selection-end="3357" vertical-scroll-proportion="0.83187133" vertical-offset="2582" max-vertical-offset="3312">
+        <state line="137" column="13" selection-start="3357" selection-end="3357" vertical-scroll-proportion="0.0" vertical-offset="2582" max-vertical-offset="3312">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/sidebar 2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="0" selection-start="3435" selection-end="3435" vertical-scroll-proportion="-67.5625" vertical-offset="0" max-vertical-offset="3220">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/edit_post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="38" selection-start="1237" selection-end="1237" vertical-scroll-proportion="-15.5625" vertical-offset="445" max-vertical-offset="1840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/posts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="47" selection-start="1649" selection-end="1649" vertical-scroll-proportion="-5.15625" vertical-offset="847" max-vertical-offset="3841">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/nav.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="21" selection-start="3268" selection-end="3268" vertical-scroll-proportion="0.66504854" vertical-offset="1360" max-vertical-offset="1978">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/new_post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="0" selection-start="3011" selection-end="3011" vertical-scroll-proportion="3.0234742" vertical-offset="0" max-vertical-offset="2093">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/post_index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="42" selection-start="1520" selection-end="1520" vertical-scroll-proportion="0.5399061" vertical-offset="276" max-vertical-offset="1219">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/posts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="47" selection-start="1649" selection-end="1649" vertical-scroll-proportion="0.39593115" vertical-offset="759" max-vertical-offset="3795">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/post 2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.4444444" vertical-offset="923" max-vertical-offset="2093">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/search_index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="67" selection-start="1782" selection-end="1782" vertical-scroll-proportion="1.0438185" vertical-offset="0" max-vertical-offset="1081">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/templates/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="0" selection-start="1548" selection-end="1548" vertical-scroll-proportion="1.5837246" vertical-offset="0" max-vertical-offset="3220">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="20" selection-start="931" selection-end="931" vertical-scroll-proportion="-19.40625" vertical-offset="0" max-vertical-offset="1840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/search_index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1081">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/templates/nav.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="26" selection-start="3273" selection-end="3273" vertical-scroll-proportion="-38.09375" vertical-offset="552" max-vertical-offset="1978">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/post_index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="46" selection-start="526" selection-end="527" vertical-scroll-proportion="0.39593115" vertical-offset="0" max-vertical-offset="1219">
           <folding />
         </state>
       </provider>
