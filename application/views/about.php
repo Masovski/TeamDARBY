@@ -3,7 +3,7 @@
     <div class="row">
         <div class="col-md-11">
 <?php for($i = 0; $i < count($abouts) ; $i++){ ?>
-				<div id="user-1">					
+				<div id="user-<?=$i?>">					
 					<div class="information">
 						<div class="table-row">
 						<div class="photo">
