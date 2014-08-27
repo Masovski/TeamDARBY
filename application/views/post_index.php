@@ -19,7 +19,7 @@
                 </p>
                 <?php if($author_permissions) { ?>
                 <span class="glyphicon glyphicon-edit"></span> <a href="<?= base_url() ?>posts/editpost/<?= $row['postID'] ?>">Edit</a> |
-                <span class="glyphicon glyphicon-remove-circle"></span> <a href="<?= base_url() ?>posts/deletepost/<?= $row['postID'] ?>">Delete</a> <?php } ?>
+                <span class="glyphicon glyphicon-remove-circle"></span> <a href="<?= base_url() ?>posts/deletepost/<?= $row['postID'] ?>" onclick="return confirm('Are you sure you want to delete this post?')">Delete</a> <?php } ?>
                 <p><span class="glyphicon glyphicon-time"></span> Posted on <?= $row['date_added']; ?></p>
                 <p><span class="glyphicon glyphicon-eye-open"></span> <strong><?= $row['views'];?></strong></p>
                         <hr>
