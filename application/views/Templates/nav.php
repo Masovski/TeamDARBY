@@ -14,14 +14,14 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
+				<li>
+                    <a href="<?=base_url()?>posts/new_post"><strong>New Post</strong></a>
+                </li>
                 <li>
                     <a href="<?=base_url()?>abouts">About Us</a>
-                </li>
+                </li>               
                 <li>
-                    <a href="#">Services</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
+                    <a href="http://www.urbandictionary.com/define.php?term=Darby">What is Darby?</a>
                 </li>
             </ul>
             <ul class="nav navbar-nav profile-bar">
