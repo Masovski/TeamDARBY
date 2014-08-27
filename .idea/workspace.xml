@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="5dd8bad1-8f25-4435-93a8-cbe8fefe0104" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/edit_post.css" afterPath="$PROJECT_DIR$/assets/css/edit_post.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/register_user.php" afterPath="$PROJECT_DIR$/application/views/register_user.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/login.css" afterPath="$PROJECT_DIR$/assets/css/login.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/login.php" afterPath="$PROJECT_DIR$/application/views/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TeamDARBY.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,16 +40,34 @@
       <file leaf-file-name="register_user.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/register_user.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="58" selection-start="1097" selection-end="1097" vertical-scroll-proportion="-6.71875" vertical-offset="659" max-vertical-offset="1311">
+            <state line="38" column="58" selection-start="1097" selection-end="1097" vertical-scroll-proportion="-27.3125" vertical-offset="0" max-vertical-offset="1311">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit_post.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="edit_post.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/edit_post.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="13" selection-start="1906" selection-end="1906" vertical-scroll-proportion="0.8406433" vertical-offset="1173" max-vertical-offset="1932">
+            <state line="19" column="6" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0" vertical-offset="1271" max-vertical-offset="1955">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/css/login.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="137" column="13" selection-start="3357" selection-end="3357" vertical-scroll-proportion="0.83187133" vertical-offset="2582" max-vertical-offset="3312">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="39" selection-start="321" selection-end="321" vertical-scroll-proportion="-5.75" vertical-offset="0" max-vertical-offset="437">
               <folding />
             </state>
           </provider>
@@ -94,8 +114,6 @@
         <option value="$PROJECT_DIR$/application/controllers/themecontroller.php" />
         <option value="$PROJECT_DIR$/application/models/schedule.php" />
         <option value="$PROJECT_DIR$/application/models/user.php" />
-        <option value="$PROJECT_DIR$/application/views/login.php" />
-        <option value="$PROJECT_DIR$/assets/css/login.css" />
         <option value="$PROJECT_DIR$/assets/css/about.css" />
         <option value="$PROJECT_DIR$/application/controllers/users.php" />
         <option value="$PROJECT_DIR$/application/views/post_index.php" />
@@ -119,8 +137,10 @@
         <option value="$PROJECT_DIR$/application/controllers/posts.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/sidebar 2.php" />
         <option value="$PROJECT_DIR$/application/views/templates/sidebar.php" />
-        <option value="$PROJECT_DIR$/assets/css/edit_post.css" />
         <option value="$PROJECT_DIR$/application/views/register_user.php" />
+        <option value="$PROJECT_DIR$/assets/css/edit_post.css" />
+        <option value="$PROJECT_DIR$/application/views/login.php" />
+        <option value="$PROJECT_DIR$/assets/css/login.css" />
       </list>
     </option>
   </component>
@@ -463,13 +483,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/login.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="15" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0" vertical-offset="483" max-vertical-offset="3266">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/TortoiseGit/schedules_bc0e7a2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
@@ -529,13 +542,6 @@
     <entry file="file://$PROJECT_DIR$/assets/css/schedule.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="105" column="20" selection-start="1887" selection-end="1887" vertical-scroll-proportion="0.0" vertical-offset="1882" max-vertical-offset="2576">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="69" selection-start="417" selection-end="417" vertical-scroll-proportion="-6.46875" vertical-offset="0" max-vertical-offset="437">
           <folding />
         </state>
       </provider>
@@ -741,14 +747,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/register_user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="58" selection-start="1097" selection-end="1097" vertical-scroll-proportion="-6.71875" vertical-offset="659" max-vertical-offset="1311">
+        <state line="38" column="58" selection-start="1097" selection-end="1097" vertical-scroll-proportion="-27.3125" vertical-offset="0" max-vertical-offset="1311">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="39" selection-start="321" selection-end="321" vertical-scroll-proportion="-5.75" vertical-offset="0" max-vertical-offset="437">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/edit_post.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="13" selection-start="1906" selection-end="1906" vertical-scroll-proportion="0.8406433" vertical-offset="1173" max-vertical-offset="1932">
+        <state line="19" column="6" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1955">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="137" column="13" selection-start="3357" selection-end="3357" vertical-scroll-proportion="0.83187133" vertical-offset="2582" max-vertical-offset="3312">
           <folding />
         </state>
       </provider>
