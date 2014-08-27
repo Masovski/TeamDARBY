@@ -7,11 +7,11 @@
 <form action="<?=base_url()?>posts/editpost/<?=$post['postID']?>" method="post">
     <p>
         Title:<br/>
-        <input type="text" name="title" value= "<?=$post['title']?>"/>
+        <input type="text" name="title" value= "<?=$post['title']?>" required="required"/>
     </p>
     <p>
         Content:
-        <br/><textarea name="post"><?=$post['post']?></textarea>
+        <br/><textarea name="post" required="required"><?=$post['post']?></textarea>
     </p>
     <p>
         Tags:<br/>
