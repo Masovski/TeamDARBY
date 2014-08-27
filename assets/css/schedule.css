@@ -76,7 +76,7 @@ td:last-child {
 }	
 
 tr {
-	background: url(http://jackrugile.com/images/misc/noise-diagonal.png);	
+	background: url(http://jackrugile.com/images/misc/noise-diagonal.png);
 }
 
 tr:nth-child(odd) td {
@@ -103,4 +103,5 @@ tbody:hover td {
 tbody:hover tr:hover td {
 	color: #444;
 	text-shadow: 0 1px 0 #fff;
+    cursor: pointer;
 }
