@@ -61,7 +61,8 @@ class Posts extends CI_Controller{
         if($_POST){
             $tags = $this->input->post('tags', true);
             $tags = join(",", array_map('trim', explode(',', $tags)));
-            $tags =  join(",", array_filter( explode(",", $tags), 'strlen' ));
+            $tags =  join(",", preg_split('/,/', $tags, -1, PREG_SPLIT_NO_EMPTY));
+
             $data = array(
                 'title'=>$this->input->post('title', true),
                 'post'=>$this->input->post('post', true),
@@ -87,9 +88,14 @@ class Posts extends CI_Controller{
         }
         $data['success'] = 0;
         if($_POST){
+            $tags = $this->input->post('tags', true);
+            $tags = join(",", array_map('trim', explode(',', $tags)));
+            $tags =  join(",", preg_split('/,/', $tags, -1, PREG_SPLIT_NO_EMPTY));
+            
             $data_post = array(
-                'title'=>$_POST['title'],
-                'post'=>$_POST['post'],
+                'title'=>$this->input->post('title', true),
+                'post'=>$this->input->post('post', true),
+                'tags'=>$tags,
                 'active'=>1
             );
             $this->post->update_post($postID, $data_post);

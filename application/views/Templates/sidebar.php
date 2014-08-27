@@ -7,16 +7,28 @@
 
     <!-- Blog Search Well -->
     <div class="well">
-        <h4>Blog Search</h4>
-        <div class="input-group">
-            <input type="text" class="form-control">
-                        <span class="input-group-btn">
-                            <button class="btn btn-default" type="button">
-                                <span class="glyphicon glyphicon-search"></span>
-                            </button>
-                        </span>
-        </div>
-        <!-- /.input-group -->
+        <form method="get" action="<?=base_url()?>search/index"  autocomplete="off" >
+            <h4>Blog Search</h4>
+            <div class="input-group">
+                <input name="searchphrase" type="text" class="form-control" value="<?=!empty($searchphrase)?$searchphrase:''?>">
+                <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                        <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                </span>
+            </div>
+            <br/>
+            <h4>Search by:</h4>
+            <?php $search_by = empty($search_by)?'tag':$search_by;?>
+            <label>
+                Tag
+                <input type="radio" name="search_by" value="tag" <?=($search_by=='tag')?"checked='checked'":"";?> />
+            </label>
+            <label>
+                Content
+                <input type="radio" name="search_by" value="content" "<?=($search_by=='content')?"checked='checked'":"";?>"/>
+            </label>
+        </form>
     </div>
 
     <!-- Blog Categories Well -->
