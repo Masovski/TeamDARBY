@@ -83,13 +83,13 @@
                 <ul class="list-unstyled">
                 <?php
                 // get list of blog-items
-                $archives = $this->post->get_posts(2147483647, 0);
+                $all_posts = $this->post->get_posts(2147483647, 0);
 
                 $last_year_month = "";
 
                 // traverse items in foreach loop
                 $tags_cloud = array();
-                foreach($posts as $post) {
+                foreach($all_posts as $post) {
                     $tags = explode(",",$post['tags']);
                     foreach ($tags as $tag) {
                         if(empty($tags_cloud[$tag])){
